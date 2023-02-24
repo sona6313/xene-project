@@ -1,0 +1,289 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    // flex-direction: column;
+    height: 90vh;
+   .main-content{
+    justify-content: center;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #EBEBEB;
+
+      .h{
+        background-color: #A7A7A7;
+        font-size: 2rem;
+        width: 2.5rem;
+        height: 2.3rem;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+      }
+   
+    .content{
+      font-family: Plus Jakarta Sans;
+        align-items: center;
+        background-color: #FFFFFF;
+        justify-content: center;
+        display: flex;
+        gap:40rem;
+        height: 4rem;
+        font-size: 120%;
+        // background-color: antiquewhite;
+      //  border-bottom: .1px solid;
+    
+    .heading{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+       .ad{
+        font-size: 1.8rem;
+        font-weight: 500;
+       }
+    .head-para{
+        color: #515151;
+    }
+}
+.main-box{
+    
+    // padding: .5rem;
+    border: .1px  solid;
+    height: 70vh;
+    border-color: #F6F6F6;
+    border: 2px solid #EBEBEB;
+   
+
+  .content2{
+    gap:40rem;
+    height: 5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: #F6F6F6;
+  //  height: 3rem;
+   
+
+      .Company-head{
+        font-family: Plus Jakarta Sans;
+        font-size: 1.6rem;
+        font-weight:1rem;
+        
+        
+      }
+      .month{
+        font-family: Plus Jakarta Sans;
+        font-weight: 200;
+        font-size: 1.8rem;
+        color: #667677;
+     
+      }
+  }
+  .drag-pic{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .6rem;
+    border-top: 1px  dashed #EBEBEB;
+    border-bottom: 1px  dashed #EBEBEB;
+    border-left: 1px  dashed #EBEBEB;
+    border-right: 1px  dashed #EBEBEB;
+  
+
+    .logo{
+        font-weight: 100;
+        font-size: 2rem;
+        font-family: Plus Jakarta Sans, Medium;
+    }
+
+    .Company-log{
+        // background-color: #EBEBEB;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        // top: 296px;
+        font-size: 2.7rem;
+        // color: #A7A7A7;
+        border: 3px solid #EBEBEB;
+        border-color: rgb(255, 255, 255);
+        font-size: 12rem;
+    }
+  }
+  .icon-background{
+    background-color: #EBEBEB;
+   gap: 1rem;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.icon-main-box{
+  background-color: #FCFCFC;
+    padding: .8rem;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // gap: 1rem;
+  // flex-direction: column;
+  // border-top: 1px  dashed #EBEBEB;
+  // border-bottom: 1px  dashed #EBEBEB;
+  // border-left: 1px  dashed #EBEBEB;
+  // border-right: 1px  dashed #EBEBEB;
+
+   
+ .box-line{
+    border-top: 1px  dashed #FF992E;
+    border-bottom: 1px  dashed #FF992E;
+    border-left: 1px  dashed #FF992E;
+    border-right: 1px  dashed #FF992E;
+    width: 30rem;
+    height: 5rem;
+    background-color:#FFFFFF;
+
+    .box-word{
+      font-size: 1.6rem;
+      
+    }
+    
+  }
+  .max{
+    color: #ACBABA;
+    font-size: 1rem;
+  }
+ 
+ }
+ }
+ .form1-group{
+  display: flex;
+  justify-content: center;
+  gap:2rem;
+ }
+.form-1{
+  position: relative;
+}
+input {
+  border: 1px solid #EBEBEB;
+  border-radius: 6px;
+  position: relative;
+  width: 348px;
+  margin: 10px;
+  line-height: 6ex;
+  color: #A7A7A7;
+  font-size: 1.1rem;
+padding: .4rem;  
+outline: none;
+font-family: Plus Jakarta Sans, Medium;
+
+}
+label {
+  position: absolute;
+  top: 0.3ex;
+  z-index: 2;
+  left: 2em;
+font-size: 1.3rem;
+  background-color:#FFFFFF;
+  // padding: 0 19rem;
+}
+    .button{
+      
+      display: flex;
+      gap:39rem;
+      justify-content: center;
+
+   
+
+     .but-2{
+      padding: 1rem;
+      background-color: #24C8C9;
+      font-family: Plus Jakarta Sans, Medium;
+      // width: 9rem;
+      height: 4rem;
+      border-style: none;
+      border-color: #EBEBEB;
+      color: #FFFFFF;
+     }
+     
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 26px;
+    }
+    
+    .switch input { 
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 23px;
+      width: 23px;
+      left: 2px;
+      bottom: 2px;
+      background-color: rgb(240, 240, 240);
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    
+    input:checked + .slider {
+      background-color: #0cbf65;
+    }
+    
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+    
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+    .slider.round {
+      border-radius: 34px;
+    }
+    
+    .slider.round:before {
+      border-radius: 50%;
+    }
+    }
+    .last-icon{
+      display: flex;
+      gap: 3rem;
+     
+
+     .icon-text{
+      font-weight: 400;
+      font-size: 1.4rem;
+    }
+  
+    }
+ }
+}
+
